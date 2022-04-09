@@ -1,0 +1,8 @@
+input {
+    display: none;
+}
+
+.btn{
+    font-weight: 700;
+    border-radius: 99px;
+}

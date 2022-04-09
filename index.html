@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Храм иконы Божией Матери "Всех скорбящих Радость"</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <a href="#" title="На главную">
+            <div class="logo logo-container">
+                <img class="logo-img col-sm-6 col-2" src="img/logo2.png" alt="нет изображения">
+            </div>
+        </a>
+        <nav class="nav">
+            <ul class="header_menu">
+                <li class="header_button">
+                    <a href="#" class="nav-link">Расписание богослужений</a>
+                </li>
+                <li class="header_button">
+                    <a href="#" class="nav-link">Подать записку</a>
+                </li>
+                <li class="header_button button__contacts">
+                    <a href="#" class="nav-link">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="photo-logo"><img class="photo" src="../фотошоп/jbZVzJPWJ_c.jpg" alt=""></div>
+    </header>
+
+    <!-- ГЛАВНАЯ ЧАСТЬ -->
+    <!-- ЛЕВЫЙ БЛОК -->
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <aside class="left_block col-sm-4 col-md-3">
+                    <div class="search">
+                        <form action="https://jsonplaceholder.typicode.com/posts" autocomplete method="POST"
+                            class="form">
+                            <input type="text" name="name" placeholder="Поиск" class="input" id="name">
+                        </form>
+                    </div>
+
+                    <nav class="nav_left">
+                        <ul class="header_menu_left">
+                            <li class="nav_button_left">
+                                <a href="#" class="nav-link">О храме</a>
+                            </li>
+                            <li class="nav_button_left">
+                                <a href="#" class="nav-link">Строительство нового храма</a>
+                            </li>
+                            <li class="nav_button_left">
+                                <a href="#" class="nav-link">II Кемеровское благочиние</a>
+                            </li>
+                            <li class="nav_button_left">
+                                <a href="#" class="nav-link">Полезные ссылки</a>
+                            </li>
+                            <li class="nav_button_left">
+                                <a href="#" class="nav-link">Архив</a>
+                            </li>
+                            <li class="nav_button_left">
+                                <a href="#" class="nav-link">Вопрос священнику</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="calendar">
+                        <h4 class="block_title">ЦЕРКОВНЫЙ КАЛЕНДАРЬ</h4>
+                        <div class="date_image">
+                            <script language="Javascript" src="http://script.pravoslavie.ru/icon.php"></script>
+                        </div>
+                        <div class="saints">
+                            <script language="Javascript"
+                                src="https://script.pravoslavie.ru/calendar.php?advanced=1"></script>
+                            <div class="date_date">
+                                <script language="Javascript">print_day();</script>
+                            </div>
+                            <div class="date_saints">
+                                <script language="Javascript">print_saints();</script>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+
+
+                <!-- ЦЕНТРАЛЬНЫЙ БЛОК -->
+
+                <div class="central_block col-sm-8 col-md-6">
+                    <div class="news_section">
+                        <a class="news_post_current" href="#">
+                            <span class="news_date">23.06.2021</span>
+                            <h6 class="news_header">Божественная литургия в день памяти Собора Сибирских святых</h6>
+                            <img class="news_img" src="../сайт храма/img/news_photo_1.jpg"
+                                alt="Божественная литургия в день памяти Собора Сибирских святых">
+                            <p class="news_lead">
+                                23 июня 2021 в храме в честь Собора Сибирских святых состоялась Божественная литургия. В
+                                богослужении приняли участие: настоятель храма иерей Михаил Чичик, настоятель храма
+                                Иконы Божией Матери Всех скорбящих Радость, благочинный иерей Василий Вавринюк,
+                                настоятель храма Рождества Христова протоиерей Анатолий Штефан, штатный клирик
+                                Казанского храма г. Кемерово иерей Александр Краснов и штатный клирик храма Иконы Божией
+                                Матери Всех скорбящих Радость диакон Сергий Сизов.
+                            </p>
+                            <hr class="news_bottom">
+                        </a>
+                        <a class="news_post_current" href="#">
+                            <span class="news_date">14.06.2021</span>
+                            <h6 class="news_header">Праздничное Богослужение в день памяти святого праведного Иоанна
+                                Кронштадтского</h6>
+                            <img class="news_img" src="../сайт храма/img/news_photo_2.jpg"
+                                alt="Праздничное Богослужение в день памяти святого праведного Иоанна Кронштадтского">
+                            <p class="news_lead">
+                                Сегодня 14 июня 2021, в день памяти святого праведного Иоанна Кронштадтского, в храме
+                                города Берёзовский состоялось праздничное Богослужение по случаю престольного праздника.
+                                Возглавил Божественную Литургию Преосвященный Игнатий, епископ Гурьевский, которому
+                                сослужили благочинный церквей второго Кемеровского Округа иерей Василий Вавринюк, клирик
+                                храма иконы Божьей Матери «Всех скорбящих Радость» иерей Алексей Попов, настоятель храма
+                                Святителя Спиридона Тримифунтского иерей Алексей Курлюта, а так же настоятели
+                                близлежащих храмов.
+                            </p>
+                            <hr class="news_bottom">
+                        </a>
+                        <a class="news_post_current" href="#">
+                            <span class="news_date">01.06.2021</span>
+                            <h6 class="news_header">Божественная литургия в день памяти благоверного князя Димитрия
+                                Донского</h6>
+                            <img class="news_img" src="../сайт храма/img/news_photo_3.jpg"
+                                alt="Божественная литургия в день памяти благоверного князя Димитрия Донского">
+                            <p class="news_lead">
+                                1 июня 2021 в храме блгв. кн. Димитрия Донского, крестильном храме прихода иконы Божией
+                                Матери «Утоли моя печали» состоялась Божественная литургия. В богослужении приняли
+                                участие: настоятель храма протоиерей Любомир Крохтяк; благочинный первого Кемеровского
+                                церковного округа протоиерей Александр Гусаков; благочинный второго Кемеровского
+                                церковного округа иерей Василий Вавринюк; иерей Георгий Якин; иерей Серафим Прокудин;
+                                иерей Иоанн Крохтяк; диакон Алексей Градусов.
+                            </p>
+                            <hr class="news_bottom">
+                        </a>
+                        <a class="news_post_current" href="#">
+                            <span class="news_date">13.05.2021</span>
+                            <h6 class="news_header">Божественная литургия в день памяти святителя Игнатия (Брянчанинова)
+                            </h6>
+                            <img class="news_img" src="../сайт храма/img/news_photo_4.jpg"
+                                alt="Праздничное Богослужение в день памяти святого праведного Иоанна Кронштадтского">
+                            <p class="news_lead">
+                                13 мая 2021 в храме свт. Игнатия (Брянчанинова), епископа Кавказского, состоялась
+                                Божественная литургия. В богослужении приняли участие: настоятель храма иерей Роман
+                                Анкудинов, настоятель храма Иконы Божией Матери Всех скорбящих Радость, благочинный
+                                иерей Василий Вавринюк, настоятель храма Рождества Христова протоиерей Анатолий Штефан и
+                                диакон Сергий Сизов, штатный клирик храма Иконы Божией Матери Всех скорбящих Радость.
+                            </p>
+                            <hr class="news_bottom">
+                        </a>
+                        <a class="news_post_current" href="#">
+                            <span class="news_date">29.04.2018</span>
+                            <h6 class="news_header">Евангельский кружок свт. Филарета Московского</h6>
+                            <img class="news_img" src="../сайт храма/img/news_photo_5.jpg"
+                                alt="Евангельский кружок свт. Филарета Московского">
+                            <p class="news_lead">
+                                В воскресенье 29 апреля проведена еженедельная встреча евангельского кружка православной
+                                молодёжи имени святителя Филарета Московского, созданного при приходе иконы Божией
+                                Матери «Всех скорбящих Радость» города Кемерово.
+                                Читали отрывок из Евангелия от Иоанна (5-я глава, с 1-го стиха и по 15-й стих
+                                включительно ): исцеление при купальне Вифезда.
+                            </p>
+                            <hr class="news_bottom">
+                        </a>
+
+                        <ul class="pager">
+                            <li class="pager_current">1</li>
+                            <li class="pager_item">2</li>
+                            <li class="pager_item">3</li>
+                            <li class="pager_item">4</li>
+                            <li class="pager_item">5</li>
+                            <li class="pager_next">next</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+                <!-- ПРАВЫЙ БЛОК -->
+
+                <aside class="right_block col-sm-12 col-md-3">
+                    <h4 class="block_title">Строительство нового храма</h4>
+                    <a class="right_block_newchurch" href="#">
+                        <img class="right_block_newchurch_pic" src="img/рендр3.jpg" alt="">
+                    </a>
+
+                    <h4 class="block_title">Как нас найти?</h4>
+                    <div class="map" id="map">
+                        <p class="map_adress"> Храм находится по адресу: Кемерово, проспект Шахтеров, 56.</p>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2580.0640623498202!2d86.11922993326569!3d55.39950782038436!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42d809bb8c57497b%3A0x6889c36edc8cceda!2z0KbQtdGA0LrQvtCy0Ywg0LjQutC-0L3RiyDQsdC-0LbQuNC10Lkg0LzQsNGC0LXRgNC4INCS0YHQtdGFINGB0LrQvtGA0LHRj9GJ0LjRhSDRgNCw0LTQvtGB0YLRjA!5e0!3m2!1sru!2sru!4v1632575108593!5m2!1sru!2sru"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                    </div>
+
+
+
+                </aside>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+<script src="js/index.js"></script>
+
+</html>
